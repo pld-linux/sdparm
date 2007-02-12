@@ -1,5 +1,5 @@
 Summary:	sdparm - listing and changing SCSI disk parameters
-Summary(pl):	sdparm - wy¶wietlanie i zmiana parametrów dysków SCSI
+Summary(pl.UTF-8):   sdparm - wyÅ›wietlanie i zmiana parametrÃ³w dyskÃ³w SCSI
 Name:		sdparm
 Version:	1.00
 Release:	1
@@ -17,12 +17,12 @@ SCSI command set. Apart from SCSI disks, examples of devices that use
 SCSI command sets are ATAPI CD/DVD drives, SCSI and ATAPI tape drives
 and SCSI enclosures.
 
-%description -l pl
-sdparm to narzêdzie do wy¶wietlania i ewentualnej zmiany parametrów
-dysków SCSI. Bardziej ogólnie mo¿e byæ u¿ywane z ka¿dym urz±dzeniem
-u¿ywaj±cym zestawu poleceñ SCSI. Oprócz dysków SCSI przyk³adami takich
-urz±dzeñ mog± byæ napêdy CD/DVD ATAPI, napêdy ta¶mowe SCSI i ATAPI
-oraz zewnêtrzne macierze SCSI.
+%description -l pl.UTF-8
+sdparm to narzÄ™dzie do wyÅ›wietlania i ewentualnej zmiany parametrÃ³w
+dyskÃ³w SCSI. Bardziej ogÃ³lnie moÅ¼e byÄ‡ uÅ¼ywane z kaÅ¼dym urzÄ…dzeniem
+uÅ¼ywajÄ…cym zestawu poleceÅ„ SCSI. OprÃ³cz dyskÃ³w SCSI przykÅ‚adami takich
+urzÄ…dzeÅ„ mogÄ… byÄ‡ napÄ™dy CD/DVD ATAPI, napÄ™dy taÅ›mowe SCSI i ATAPI
+oraz zewnÄ™trzne macierze SCSI.
 
 %prep
 %setup -q
