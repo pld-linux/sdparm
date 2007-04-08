@@ -7,7 +7,10 @@ License:	BSD
 Group:		Applications/System
 Source0:	http://sg.torque.net/sg/p/%{name}-%{version}.tgz
 # Source0-md5:	7c87e5e1ebba54b7dae40e45fd356ab9
+Patch0:		%{name}-Makefile.patch
 URL:		http://sg.torque.net/sg/sdparm.html
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -26,8 +29,12 @@ oraz zewnętrzne macierze SCSI.
 
 %prep
 %setup -q
+%patch0 -p0
 
 %build
+%{__aclocal}
+%{__autoconf}
+%{__automake}
 %configure
 %{__make}
 
