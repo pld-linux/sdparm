@@ -1,3 +1,5 @@
+# NOTE: beta versions are versioned with just new version number,
+#       so check URL for final releases
 Summary:	sdparm - listing and changing SCSI disk parameters
 Summary(pl.UTF-8):	sdparm - wyświetlanie i zmiana parametrów dysków SCSI
 Name:		sdparm
