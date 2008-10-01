@@ -7,9 +7,9 @@ Version:	1.03
 Release:	2
 License:	BSD
 Group:		Applications/System
-Source0:	http://sg.torque.net/sg/p/%{name}-%{version}.tgz
+Source0:	http://sg.danny.cz/sg/p/%{name}-%{version}.tgz
 # Source0-md5:	0f7ef943ee0a000ba90fe00ccb82763b
-URL:		http://sg.torque.net/sg/sdparm.html
+URL:		http://sg.danny.cz/sg/sdparm.html
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
