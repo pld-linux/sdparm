@@ -1,17 +1,17 @@
-# NOTE: beta versions are versioned with just new version number,
-#       so check URL for final releases
 Summary:	sdparm - listing and changing SCSI disk parameters
 Summary(pl.UTF-8):	sdparm - wyświetlanie i zmiana parametrów dysków SCSI
 Name:		sdparm
-Version:	1.06
+Version:	1.07
 Release:	1
 License:	BSD
 Group:		Applications/System
-Source0:	http://sg.danny.cz/sg/p/%{name}-%{version}.tgz
-# Source0-md5:	5e19913658bb4f9849ddd909e0f47cde
+Source0:	http://sg.danny.cz/sg/p/%{name}-%{version}.tar.xz
+# Source0-md5:	b3a551f80b11881a1d3ac67697306266
 URL:		http://sg.danny.cz/sg/sdparm.html
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	tar >= 1:1.22
+BuildRequires:	xz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
