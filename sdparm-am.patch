@@ -1,0 +1,11 @@
+--- sdparm-1.08/configure.ac.orig	2013-05-14 20:27:22.000000000 +0200
++++ sdparm-1.08/configure.ac	2013-06-16 16:16:52.203269768 +0200
+@@ -2,7 +2,7 @@
+ 
+ AM_INIT_AUTOMAKE
+ AM_MAINTAINER_MODE
+-AM_CONFIG_HEADER(config.h)
++AC_CONFIG_HEADERS(config.h)
+ 
+ AC_PROG_CC
+ # AC_PROG_CXX

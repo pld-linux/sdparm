@@ -7,6 +7,7 @@ License:	BSD
 Group:		Applications/System
 Source0:	http://sg.danny.cz/sg/p/%{name}-%{version}.tar.xz
 # Source0-md5:	d290e6b45d690bfa2cc05700ec119073
+Patch0:		%{name}-am.patch
 URL:		http://sg.danny.cz/sg/sdparm.html
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -32,6 +33,7 @@ oraz zewnętrzne macierze SCSI.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__aclocal}
