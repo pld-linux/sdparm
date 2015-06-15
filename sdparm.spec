@@ -1,12 +1,12 @@
 Summary:	sdparm - listing and changing SCSI disk parameters
 Summary(pl.UTF-8):	sdparm - wyświetlanie i zmiana parametrów dysków SCSI
 Name:		sdparm
-Version:	1.08
+Version:	1.09
 Release:	1
 License:	BSD
 Group:		Applications/System
 Source0:	http://sg.danny.cz/sg/p/%{name}-%{version}.tar.xz
-# Source0-md5:	d290e6b45d690bfa2cc05700ec119073
+# Source0-md5:	76b53e2be4c5b85e4af0887ce838c955
 Patch0:		%{name}-am.patch
 URL:		http://sg.danny.cz/sg/sdparm.html
 BuildRequires:	autoconf
